@@ -1,5 +1,5 @@
-# Coucou
-A highly modular network service discovery and broadcast library for iOS. For Android, search for coucou_android.
+# Coucou (iOS)
+A highly modular network service discovery and broadcast library for iOS. For Android, go to [coucou_android](https://github.com/mrmitew/coucou_android) repo.
 
 ## Coucou API
 ```swift
