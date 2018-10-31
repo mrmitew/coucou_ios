@@ -14,7 +14,7 @@ public class AppleDiscovery : DiscoveryEngine {
         self.serviceBrowser = NetServiceBrowser()
     }
     
-    func discover(ofType type: String,
+    public func discover(ofType type: String,
                   inDomain domain: String,
                   callback: @escaping (DiscoveryEvent) -> Void) {
         serviceTimeout = Timer.scheduledTimer(
@@ -37,7 +37,7 @@ public class AppleDiscovery : DiscoveryEngine {
         serviceBrowser.searchForServices(ofType: type, inDomain: domain)
     }
     
-    func dispose() {
+    public func dispose() {
         self.serviceBrowser.stop()
         self.listener?.dispose()
         self.listener = nil

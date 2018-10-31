@@ -1,11 +1,11 @@
 import Foundation
 
 public class AppleBroadcast : BroadcastEngine {
-    func broadcast(withConfig config: BroadcastConfig) {
+    public func broadcast(withConfig config: BroadcastConfig) {
         // TODO
     }
     
-    func dispose() {
+    public func dispose() {
         // TODO
     }
 }
