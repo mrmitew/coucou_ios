@@ -1,15 +1,15 @@
 import Foundation
 
-class AppleBonjour : NSObject, Driver {
-    func getName() -> String {
+public class AppleBonjour : NSObject, Driver {
+    public func getName() -> String {
         return "Apple Bonjour"
     }
     
-    func createBroadcast() -> BroadcastEngine {
+    public func createBroadcast() -> BroadcastEngine {
         return AppleBroadcast()
     }
     
-    func createDiscovery() -> DiscoveryEngine {
+    public func createDiscovery() -> DiscoveryEngine {
         return AppleDiscovery()
     }
 }
