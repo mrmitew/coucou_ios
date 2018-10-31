@@ -1,6 +1,6 @@
 import Foundation
 
-class AppleBroadcast : BroadcastEngine {
+public class AppleBroadcast : BroadcastEngine {
     func broadcast(withConfig config: BroadcastConfig) {
         // TODO
     }

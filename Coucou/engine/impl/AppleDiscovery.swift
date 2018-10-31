@@ -1,6 +1,6 @@
 import Foundation
 
-class AppleDiscovery : DiscoveryEngine {
+public class AppleDiscovery : DiscoveryEngine {
     private let timeout: TimeInterval = 10.0
     
     private let logger: Logger?
