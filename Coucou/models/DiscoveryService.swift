@@ -14,7 +14,7 @@ public extension DiscoveryService {
         return String(format: "%@:%d", ipaddress!, port)
     }
     
-    public func toDictionary() -> Dictionary<String, Any> {
+    public func toDictionary() -> Dictionary<String, Any?> {
         return [
             "name": name,
             "ipaddress": ipaddress,
