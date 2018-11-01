@@ -9,7 +9,7 @@ public class AppleDiscovery : DiscoveryEngine {
     private var serviceTimeout: Timer = Timer()
     private var listener: DiscoveryListener? = nil
     
-    init(logger: Logger? = nil) {
+    public init(logger: Logger? = nil) {
         self.logger = logger
         self.serviceBrowser = NetServiceBrowser()
     }

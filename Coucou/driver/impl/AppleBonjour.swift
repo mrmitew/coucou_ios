@@ -1,6 +1,8 @@
 import Foundation
 
-public class AppleBonjour : NSObject, Driver {
+public class AppleBonjour : Driver {
+    public init() {}
+    
     public func getName() -> String {
         return "Apple Bonjour"
     }

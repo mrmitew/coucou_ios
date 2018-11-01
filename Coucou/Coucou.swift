@@ -17,8 +17,7 @@ public class Coucou: NSObject {
         private var driver: Driver? = nil
         private var logger: Logger? = nil
         
-        public init() {
-        }
+        public init() {}
         
         public func driver(_ driver: Driver) -> Builder {
             self.driver = driver
