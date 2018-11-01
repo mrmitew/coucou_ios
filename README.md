@@ -1,4 +1,4 @@
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Coucou.svg)](https://img.shields.io/cocoapods/v/Coucou.svg)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Coucou.svg)](https://cocoapods.org/pods/Coucou/)
 [![Platform](https://img.shields.io/cocoapods/p/Coucou.svg?style=flat)](https://github.com/mrmitew/coucou_ios/)
 
 # Coucou (iOS)
