@@ -1,3 +1,6 @@
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/Coucou.svg)](https://cocoapods.org/pods/Coucou/)
+[![Platform](https://img.shields.io/cocoapods/p/Coucou.svg?style=flat)](https://github.com/mrmitew/coucou_ios/)
+
 # Coucou (iOS)
 A highly modular network service discovery and broadcast library for iOS. For Android, go to [coucou_android](https://github.com/mrmitew/coucou_android) repo.
 
@@ -18,7 +21,7 @@ let coucou = Coucou.Builder()
         .build()
 }
 ```
-### Network Service Discovery
+#### Network Service Discovery
 ```swift
 let disposable = coucou.startDiscovery(ofType: "_http._tcp.") { (event) in
   // TODO something with the DiscoveryEvent
@@ -52,8 +55,39 @@ public struct DiscoveryService {
 
 For more insights, please refer to the source code.
 
-### Network Service Broadcast
+#### Network Service Broadcast
 - Yet to be done.
+
+## Installation
+
+### CocoaPods
+
+[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+To integrate Coucou into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ENTER_YOUR_TARGET_NAME_HERE' do
+    pod 'Coucou', '~> ENTER_COUCOU_VERSION_HERE'
+end
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
+Done.
+
+### Carthage
+Unsupported at the moment.
 
 ## To do
 * Support for Network Service Broadcast
