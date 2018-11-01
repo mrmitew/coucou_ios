@@ -37,7 +37,7 @@ public class Coucou: NSObject {
         }
     }
     
-    func startDiscovery(ofType type: String,
+    public func startDiscovery(ofType type: String,
                      domain: String = "local.",
                      _ onResolved: @escaping (DiscoveryEvent) -> Void) -> Disposable {
         let discovery = driver.createDiscovery()
@@ -45,7 +45,7 @@ public class Coucou: NSObject {
         return discovery as Disposable
     }
     
-    func startBroadcast() -> Disposable {
+    public func startBroadcast() -> Disposable {
         // TODO
         return BroadcastDisposable()
     }
