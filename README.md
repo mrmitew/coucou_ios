@@ -95,3 +95,6 @@ Unsupported at the moment.
 * Complete sample
 * More documentation
 * Improve the README
+
+# Credits
+Inspiration for this library and software architecture was taken from [RxBonjour](https://github.com/mannodermaus/RxBonjour) by Marcel Schnelle.
